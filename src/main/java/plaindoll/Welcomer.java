@@ -11,7 +11,7 @@ public class Welcomer{
 		return "Not enough gold";
 	}
 	public String sayHunter(){
-		return "Hunter Hunter Hunter";
+		return "Hunter Hunter Hunter hunter hunter";
 	}
 
 
