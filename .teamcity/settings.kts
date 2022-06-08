@@ -34,7 +34,7 @@ project {
     template(MavenBuild)
 
     params {
-        text("cat_name", "TstParam", allowEmpty = true)
+        text("cat_name", "TstParam", readOnly = true, allowEmpty = true)
         param("env.cat_name", "%cat_name%")
         param("env.name", "Alexey1")
     }
